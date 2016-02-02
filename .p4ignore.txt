@@ -1,0 +1,40 @@
+# Ignore rules for perforce
+#
+# Free for general use but provided "as is".
+# I would recommend keeping this file in your Perforce server folder so you'll know where to find it. Should you make any changes, simply run
+# the perforce command to set the ignore file:
+#
+# p4 set P4IGNORE=C:\Full\Path\To\File\p4Ignore.txt (please use your path format of your OS)
+#
+#
+# FILE TYPES
+#
+# These are global unless a directory is specified. Please note paths are how your flavor of OS understands.
+# To include a specific file of a group of blanket ignored files use the ! symbol.
+#
+# Example:
+# *.html
+# !readme.html
+# This is essentially like saying "Ignore all files with extension of.html EXCEPT readme.html"
+#
+
+# Ignore some Visual Studio stuff as well as log files UE4 writes to when building.
+*.sdf
+*.sln
+*.suo
+*.log
+
+#
+# FOLDERS
+#
+# Please be sure to use full paths when possible.
+#
+# C:\Example\Folder <- This will exclude all files in the folder named Folder (and below).
+#
+C:\Users\lookingwestapps\Documents\HangVR\Binaries
+C:\Users\lookingwestapps\Documents\HangVR\Build
+C:\Users\lookingwestapps\Documents\HangVR\Intermediate
+C:\Users\lookingwestapps\Documents\HangVR\Saved
+
+# Exclude the starter content
+C:\Users\lookingwestapps\Documents\HangVR\Content\StarterContent
