@@ -31,7 +31,7 @@ This game was created by independent programmers, artists, and musicians in Denv
 
 - Technical Artist - **Brandon Jenks**
 - Programmer - **[Alex Brancard](http://lookingwestapps.com)**
-- Sound - **Benjamin M** and **Mike Bryant**
+- Sound - **Benjamin McKissick Jr.** and **Mike Bryant**
 - Modeler - **Joni Maxson, Brandon Jenks, Hanna Pardee**
 - Concept Artist - **Hanna Pardee**
 - Texture Artist - **Hanna Pardee**
